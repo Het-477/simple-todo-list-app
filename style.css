@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --my-cool-gradient: linear-gradient(45deg, orange 15%, purple 100%);
+    --dark: #001747;
+    --grey: #b1bacb;
+    --grey-dark: #b1b1b176;
+    --grey-border: #b1b1b176;
+    --grey-light: #e6e6e6;
+    --blue: rgb(53, 53, 231);
+    --green: rgb(13, 209, 13);
+    --white: white;
+}
+
+body {
+    height: 100vh;
+    background: var(--my-cool-gradient);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
