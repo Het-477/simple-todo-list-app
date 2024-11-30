@@ -111,10 +111,38 @@ li {
 #todoList p {
     color: var(--grey);
 }
+
 /* this will also be added via js */
 .disabled-todo-task {
     display: flex;
     text-decoration: line-through;
+}
+
+/* to check and uncheck a todo task. this will be done via js */
+input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+}
+
+input[type="checkbox"]::before {
+    content: "\2713";
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    font-size: 1.7rem;
+    text-align: center;
+    border: 0.06rem solid var(--grey-border);
+    border-radius: 50%;
+    color: transparent;
+}
+
+input[type="checkbox"]:checked::before {
+    color: var(--white);
+    background-color: var(--green);
+    border: 0.06rem solid var(--green);
+    border-radius: 50%;
 }
 
 .counter {
