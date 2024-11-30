@@ -88,3 +88,31 @@ button {
 input[type="text"]::placeholder {
     color: var(--grey);
 }
+
+/* This elements doesn't exist yet, we will cerate it with some js  */
+.toDoContainer {
+    display: flex;
+    gap: 1rem;
+}
+
+/* Turning the regular list into a scrollable list  */
+ul {
+    overflow-y: scroll;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    padding: 1.3rem;
+}
+
+/* 'p' inside the todo list doesn't exist yet, we will create it with js */
+#todoList p {
+    color: var(--grey);
+}
+/* this will also be added via js */
+.disabled-todo-task {
+    display: flex;
+    text-decoration: line-through;
+}
