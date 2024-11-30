@@ -200,3 +200,22 @@ input[type="checkbox"]:checked::before {
     font-weight: 500;
 }
 
+
+/* Styled scrollbar of todo items (idk why but it doesn't work on firefox) */
+.scroll {
+    height: 15rem;
+    scrollbar-width: thin;
+}
+
+.scroll::-webkit-scrollbar {
+    width: 0.8rem;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+    background-color: var(--blue);
+    border-radius: 0.8rem;
+}
+
+.scroll::-webkit-scrollbar-track {
+    display: none;
+}
