@@ -173,3 +173,29 @@ input[type="checkbox"]:checked::before {
     align-self: center;
     color: var(--grey);
 }
+
+.footer {
+    background: var(--white);
+    padding: 1.5rem;
+    border-radius: 0.8rem;
+}
+
+.footer .footer-container {
+    display: flex;
+    gap: 1.8rem;
+}
+
+.made-by,
+.author {
+    font-size: 1rem;
+}
+
+.made-by {
+    color: var(--grey);
+}
+
+.author {
+    color: var(--blue);
+    font-weight: 500;
+}
+
