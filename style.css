@@ -34,10 +34,11 @@ body {
 .todo-container {
     background-color: var(--white);
     /* padding: 20px 120px 200px 120px; */
-    height: 60%;
+    height: 80%;
     width: 60%;
     max-width: 30rem;
     padding: 3rem;
+    padding-bottom: 12px;
     border-radius: 1.4rem;
     display: flex;
     flex-direction: column;
