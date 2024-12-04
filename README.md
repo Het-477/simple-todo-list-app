@@ -5,6 +5,8 @@
 Hi, im a beginner to web dev and this my first to-do list project to get started and learn some fundamentals of html, css, and js.
 here is what ive learned new about html, css, and js soo far:
 
+Edit: Hi again, i was making this project by following [this](https://www.youtube.com/watch?v=3OqWCGVaOkA&t=4053s "The slowest and the most beginner un-friendly todo list tutorial") tutorial and it seemed good at the starting but now at the js scripting section it feels so confusing to even understand the js code. idk if im to dumb of its just javascript which is bothering me or the creator of the tutorial isn't straight forward and jaggy that looking at the tutorial code and my code makes me so confused and makes me anxious that im not good enough. 
+
 #### HTML
 
 - `placeholder="text"` : to put a placeholder text inside an input field to tell the user what to enter. eg: email, phone.no, todo's etc.
