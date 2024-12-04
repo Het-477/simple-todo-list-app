@@ -59,7 +59,7 @@ button {
 
 /* idk how these two work but i will figure it out */
 /* TODO : know more about these position: relative && absolute properties */
-.add-todo-btn {
+#add-todo-btn {
     background-color: var(--blue);
     color: var(--white);
     border-radius: 4px;
